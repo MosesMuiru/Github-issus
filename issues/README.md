@@ -11,10 +11,11 @@ by adding `issues` to your list of dependencies in `mix.exs`:
 def deps do
   [
     {:issues, "~> 0.1.0"}
+    {:httpoison, "~> 2.0.0"}
   ]
 end
 ```
-
+also usind poisong for my json formating
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/issues>.
